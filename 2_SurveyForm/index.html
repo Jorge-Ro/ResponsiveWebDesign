@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='style.css'>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 id="title">Survey Form</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+        </header>
+        <main>
+            <form id="survey-form">
+                <div>
+                    <label id="name-label" for="name">Name</label>
+                    <input id="name" type="text" placeholder="Enter your name" required>
+                </div>
+                <div>
+                    <label id="email-label" for="email">Email</label>
+                    <input id="email" type="email" placeholder="Enter your email" required>
+                </div>
+                <div>
+                    <label id="number-label" for="age">Age</label>
+                    <input id="number" type="number" min="1" max="100" placeholder="Enter your age" required>
+                </div>
+                <div>
+                    <p>De que continente eres</p>
+                    <select id="dropdown" required>
+                        <option disabled="" selected="" value="">Selecciona una opcion</option>
+                        <option value="america">América</option>
+                        <option value="asia">Asia</option>
+                        <option value="europa">Europa</option>
+                        <option value="oceania">Oceanía</option>
+                        <option value="africa">África</option>
+                    </select>
+                </div>
+                <div class="div-but">
+                    <p>Radio buttons</p>
+                    <label  class="recomendacion">
+                        <input name="recomendacion" value="si" type="radio" checked="">Si
+                    </label>
+                    <label class="recomendacion">
+                        <input name="recomendacion" value="no" type="radio">No
+                    </label>
+                    <label class="recomendacion">
+                        <input name="recomendacion" value="quizas" type="radio">Quizás
+                    </label>
+                </div>
+                <div class="div-but">
+                    <p>Que lenguajes de programación conoces</p>
+                    <label class="checkbox">
+                        <input type="checkbox" name="lenguaje" value="python">Python
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" name="lenguaje" value="java">JAVA
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" name="lenguaje" value="Javascript">Javascript
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" name="lenguaje" value="c">C
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" name="lenguaje" value="c++">C++
+                    </label>
+                </div>
+                <div>
+                    <p>Alguna sugerencia?</p>
+                    <textarea id="comentario-final" name="sugerencia" placeholder="Puede añadir las sugerencias que tenga..."></textarea>
+                </div>
+                <div>
+                    <button id="submit" type="submit">Enviar formulario</button>
+                </div>
+            </form>
+        </main>
+    </div>
+</body>
+</html>

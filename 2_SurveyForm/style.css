@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(231, 210, 210);
+    font-family: 'Poppins', sans-serif;
+}
+#container {
+    max-width: 720px;
+    width: 100%;
+    margin: auto;
+}
+#title {
+    text-align: center;
+}
+#description {
+    text-align: center;
+}
+#survey-form {
+    padding: 2.5em;
+    background-color: rgb(90, 92, 228);
+    border-radius: 10px;
+}
+#name-label, #email-label, #number-label {
+    display: block;
+    padding: 5px 0px;
+}
+#name, #email, #number {
+    margin-bottom: 15px;
+    width: 100%;
+}
+#dropdown {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 4px;
+}
+p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.recomendacion {
+    display: block;
+}
+.div-but {
+    margin-bottom: 25px;
+}
+.checkbox {
+    display: block;
+}
+#comentario-final {
+    width: 100%;
+    min-height: 120px;
+    padding: 10px;
+}
+#submit {
+    width: 100%;
+    margin: 15px 0;
+}
